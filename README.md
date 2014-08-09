@@ -12,5 +12,5 @@ Building
 
 `$ make global` will generate `spooles.a`.
 
-`$ make` will build a bunch of test applications. I've only checked a handful of them.
+After doing that, `$ make` will build a bunch of test applications. I've only checked a handful of them.
 
