@@ -22,9 +22,9 @@ drivers :
 	cd Ideq             ; make all_drivers
 	cd InpMtx           ; make all_drivers
 	cd Lock             ; make all_drivers
-	cd MPI              ; make all_drivers
+#	cd MPI              ; make all_drivers
 	cd MSMD             ; make all_drivers
-	cd MT               ; make all_drivers
+#	cd MT               ; make all_drivers
 	cd Network          ; make all_drivers
 	cd PatchAndGoInfo   ; make all_drivers
 	cd Pencil           ; make all_drivers

@@ -10,6 +10,7 @@ SRC = IO.c \
       instance.c \
       listmanip.c \
       misc.c \
+      subIVL.c \
       util.c
 
 OBJ_FILES = ${SRC:.c=.o}

@@ -8,6 +8,7 @@ SRC = IO.c \
       basics.c \
       compress.c \
       init.c \
+      initFromSubtree.c \
       instance.c \
       justify.c \
       maps.c \
