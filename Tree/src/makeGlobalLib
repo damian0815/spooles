@@ -6,7 +6,7 @@ OBJ = Tree
 
 SRC = basics.c \
       compress.c \
-      drawTree.c \
+      draw.c \
       init.c \
       instance.c \
       IO.c \
@@ -26,4 +26,5 @@ OBJ_FILES = ${SRC:.c=.o}
 	$(AR) $(ARFLAGS) ../../spooles.a $(OBJ)_*.o
 	rm -f $(OBJ)_*.o
 	$(RANLIB) ../../spooles.a
-	
+
+

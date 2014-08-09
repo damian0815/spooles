@@ -11,8 +11,8 @@
 #
 # for solaris
 #
-# CC = gcc
-  CC = /usr/lang-4.0/bin/cc
+ CC = gcc
+# CC = /usr/lang-4.0/bin/cc
 #
 # for sgi
 #
@@ -51,8 +51,8 @@
 #
 # THREAD_LIBS =
 # THREAD_LIBS = -D_REENTRANT=199506L -lpthread
-  THREAD_LIBS = -D_POSIX_C_SOURCE=199506L -lpthread
-# THREAD_LIBS = -lpthread
+#  THREAD_LIBS = -D_POSIX_C_SOURCE=199506L -lpthread
+ THREAD_LIBS = -lpthread
 #
 #---------------------------------------------------------------------
 #

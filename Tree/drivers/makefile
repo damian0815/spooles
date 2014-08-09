@@ -13,3 +13,4 @@ clean :
 
 drawTree : drawTree.o ../../spooles.a
 	${PURIFY} ${CC} $@.o -o $@ $(PURIFY_GCC_VERSION) ${LIBS} 
+
