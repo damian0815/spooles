@@ -10,7 +10,7 @@ Note MPI is disabled as it's probably not threadsafe (ref the freebsd ports bugr
 Building
 --------
 
-`$ make global` will generate spooles.a.
+`$ make global` will generate `spooles.a`.
 
 `$ make` will build a bunch of test applications. I've only checked a handful of them.
 
